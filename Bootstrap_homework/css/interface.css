@@ -1,0 +1,31 @@
+body {
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#description {
+    resize: none;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-rounded {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    /* Ajusta el valor según el redondeo deseado */
+    overflow: hidden;
+}
+
+.table-rounded th,
+.table-rounded td {
+    border: 1px solid #dee2e6;
+    /* Ajusta el color del borde según tu diseño */
+}
